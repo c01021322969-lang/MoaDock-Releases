@@ -31,6 +31,7 @@ HWP 재저장·XLSX 수식 자체 계산·PDF OCR·영상 편집·macOS·MCP/API
 코드 서명되지 않은 베타입니다. 공식 배포처와 SHA256SUMS.txt를 확인하고 조직의 보안 정책을 따르세요.
 
 공식 다운로드
-https://github.com/c01021322969-lang/MoaDock-Releases/releases/tag/v0.1.0-beta-license1
+https://github.com/c01021322969-lang/MoaDock-Releases/releases/tag/v0.1.1-beta
 실행 ZIP과 외부 대응 소스 ZIP, 체크섬을 같은 페이지에서 제공합니다.
 MoaDock 자체 소스는 비공개이며 이 공개 저장소는 배포·안내용입니다.
+

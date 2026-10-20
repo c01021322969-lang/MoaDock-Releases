@@ -6,16 +6,22 @@
 
 ## 다운로드
 
-[**Windows x64 실행 ZIP 다운로드**](https://github.com/c01021322969-lang/MoaDock-Releases/releases/download/v0.1.0-beta-license1/MoaDock-v0.1.0-beta-license1-windows-x64.zip) · [릴리스 설명](https://github.com/c01021322969-lang/MoaDock-Releases/releases/tag/v0.1.0-beta-license1)
+[**Windows x64 실행 ZIP 다운로드**](https://github.com/c01021322969-lang/MoaDock-Releases/releases/download/v0.1.1-beta/MoaDock-v0.1.1-beta-windows-x64.zip) · [릴리스 설명](https://github.com/c01021322969-lang/MoaDock-Releases/releases/tag/v0.1.1-beta)
 
-- [외부 라이브러리 대응 소스 ZIP](https://github.com/c01021322969-lang/MoaDock-Releases/releases/download/v0.1.0-beta-license1/MoaDock-third-party-sources-20261020.zip) — MoaDock 코드가 아닌 Qt/PySide6·7-Zip·FFmpeg 등 외부 구성요소 소스입니다.
-- [SHA256SUMS.txt](https://github.com/c01021322969-lang/MoaDock-Releases/releases/download/v0.1.0-beta-license1/SHA256SUMS.txt) — 두 ZIP의 무결성 확인값입니다.
+- [외부 라이브러리 대응 소스 ZIP](https://github.com/c01021322969-lang/MoaDock-Releases/releases/download/v0.1.1-beta/MoaDock-third-party-sources-20261020.zip) — MoaDock 코드가 아닌 Qt/PySide6·7-Zip·FFmpeg 등 외부 구성요소 소스입니다.
+- [SHA256SUMS.txt](https://github.com/c01021322969-lang/MoaDock-Releases/releases/download/v0.1.1-beta/SHA256SUMS.txt) — 두 ZIP의 무결성 확인값입니다.
 
 ZIP 전체를 쓰기 가능한 새 폴더에 풀고 `MoaDock.exe`를 실행하세요. **Python 설치는 필요하지 않습니다.** `_internal` 폴더를 포함한 전체 구성을 유지해야 합니다. 기존 사용자는 설정·메모를 백업하고 기존 앱을 트레이에서 종료한 뒤 새 폴더에서 확인하세요.
 
 화면 녹화용 `ffmpeg.exe`는 포함하지 않습니다. 녹화를 사용하려면 [FFmpeg](https://ffmpeg.org/download.html)를 별도로 설치해 PATH에 추가하세요. 영상 재생용 Qt FFmpeg DLL은 포함되어 있습니다.
 
 코드 서명되지 않은 초기 베타입니다. Windows 또는 보안 소프트웨어의 경고가 표시될 수 있습니다. 공식 릴리스와 체크섬을 확인하고 조직 보안 정책을 따르세요.
+
+## v0.1.1 Beta 수정 사항
+
+- 연결된 각 모니터에서 영역 캡처를 시작할 수 있도록 수정했습니다.
+- 문서·시트 인쇄 글씨 크기와 인쇄 미리보기 종료 오류를 수정했습니다.
+- 자동 검사 146개와 Windows 미리보기 반복 검사를 통과했습니다. 실제 두 번째 모니터와 종이 출력은 추가 확인이 필요합니다.
 
 ## 화면 미리보기
 
@@ -68,7 +74,7 @@ ZIP 전체를 쓰기 가능한 새 폴더에 풀고 `MoaDock.exe`를 실행하�
 
 ## 검증
 
-기반 소스 자동 검사 140개, 배포 실행 파일 자체 진단, ZIP 무결성 및 체크섬 검사를 통과했습니다. 다른 PC의 실제 사용 검증과 자동 진단은 구분합니다. 사용자 설정·메모·개인 문서·캡처 결과는 포함하지 않았습니다.
+기반 소스 자동 검사 146개, 배포 실행 파일 자체 진단, ZIP 무결성 및 체크섬 검사를 통과했습니다. 다른 PC의 실제 사용 검증과 자동 진단은 구분합니다. 사용자 설정·메모·개인 문서·캡처 결과는 포함하지 않았습니다.
 
 ## 사용 조건과 외부 구성요소
 
