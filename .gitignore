@@ -1,0 +1,7 @@
+*.zip
+*.exe
+*.dll
+*.py
+.env*
+/config.json
+/*Notes.txt
