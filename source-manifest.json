@@ -47,6 +47,48 @@
       "url": "https://zlib.net/fossils/zlib-1.3.1.tar.gz",
       "bytes": 1512791,
       "sha256": "9a93b2b7dfdac77ceba5a558a580e74667dd6fede4585b91eefb60f03b72df23"
+    },
+    {
+      "file": "yt_dlp-2026.10.21.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/06/13/d2ea252871826205dc4965cb70e6037ab93697fcabf4feda49fe981f6da0/yt_dlp-2026.10.21.tar.gz",
+      "bytes": 3057326,
+      "sha256": "cbf748d7d17cd37647c4b9f07b6c25f24384bfd4361407ee5ec519e753d22539"
+    },
+    {
+      "file": "yt_dlp_ejs-0.8.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/d3/e6/cceb9530e8f4e5940f6f7822d90e9d94f1b85343329a16baaf47bbbb3de1/yt_dlp_ejs-0.8.0.tar.gz",
+      "bytes": 96571,
+      "sha256": "d5fa1639f63b5c4af8d932495f60689d5370f1a095782c944f7f62a303eb104e"
+    },
+    {
+      "file": "curl_cffi-0.16.3.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/82/e1/730125c43e3e331d98e17af3cb310ba526b3f1101b7635ca23d976ebfcf5/curl_cffi-0.16.3.tar.gz",
+      "bytes": 239020,
+      "sha256": "d15d0c2a35f2d75bec430c28946c2a833f421c85773bdb0795182cc5c515665b"
+    },
+    {
+      "file": "cffi-2.1.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/9e/ef/008a1939e372c06329a3fce4279c02f328488f3526744906eeec3da7ad5f/cffi-2.1.1.tar.gz",
+      "bytes": 530807,
+      "sha256": "dd31f52ea1086513bb9df30f8fcee9b8918323ae067a3d5b78bc826a000712be"
+    },
+    {
+      "file": "pycparser-3.12.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/cb/27/eeb9f307bf07060f3d9f9aa0fb8c15b01bdfded0a941e4b2719c7f94cacd/pycparser-3.12.tar.gz",
+      "bytes": 158785,
+      "sha256": "f03387877eab82ce01bbdfd0ba7252ee55a90b1c708d5129e2ce915475cf1db6"
+    },
+    {
+      "file": "certifi-2026.10.23.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/fd/11/b524cbd9bbdaca58608e4cf4053fd463417549e1959fa8d3aa18319f9555/certifi-2026.10.23.tar.gz",
+      "bytes": 136225,
+      "sha256": "a9895e6e2758b371e0545e321a3a8fd1fcfd9829ada8824a936dfb16aaaf36cd"
+    },
+    {
+      "file": "curl-impersonate-2.2.2.tar.gz",
+      "url": "https://github.com/lexiforest/curl-impersonate/archive/refs/tags/v2.2.2.tar.gz",
+      "bytes": 216975,
+      "sha256": "ac5dea9ac6f20f8061a26b9f5dea93a80ad9da18d04d24f9fb528ec26a0693bd"
     }
   ],
   "errors": []

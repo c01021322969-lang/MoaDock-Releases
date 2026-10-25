@@ -44,3 +44,11 @@ FFmpeg 라이브러리의 zlib 빌드 의존성 소스도 함께 보관합니다
 개발 저장소의 libarchive 테스트 자료에는 별도 `tests_data/LIBARCHIVE-LICENSE.txt`가 적용됩니다. 실행 ZIP에는 사용자 설정·메모·문서·캡처·테스트 자료를 포함하지 않습니다.
 
 대응 소스와 라이브러리 교체 방법은 SOURCE-ACCESS.md와 LIBRARY_REPLACEMENT.md를 확인하세요. 모듈·배포 파일이 바뀌면 실제 구성과 이 문서를 다시 대조해야 합니다.
+
+## 브라우저 영상 다운로드
+
+yt-dlp 2026.10.21은 Unlicense, yt-dlp-ejs 0.8.0은 Unlicense와 번들 구성요소의 MIT·ISC 조건을 따릅니다. EJS의 meriyah 6.1.4(ISC), astring 1.9.0(MIT) 고지를 원본 JavaScript와 `third_party/yt-dlp/EJS-BUNDLED-NOTICES.txt`에 보존합니다. 패키지 소스·번들 JavaScript는 수정하지 않았습니다. [yt-dlp](https://github.com/yt-dlp/yt-dlp), [EJS](https://github.com/yt-dlp/ejs). Node.js와 명령행 FFmpeg는 사용자 PC의 별도 설치본을 사용하며 이번 번들에 포함하지 않습니다. 모아독 자체 라이선스는 변경하지 않습니다.
+
+## TikTok transport
+
+curl_cffi 0.16.3 (MIT), cffi 2.1.1 (MIT), pycparser 3.12 (BSD), and certifi (MPL-2.0 certificate data) support browser-compatible HTTP. The wheel contains libcurl-impersonate 2.2.2 and its bundled native dependencies. Original Python and native license notices are in `third_party/curl-cffi/`. Upstream: https://github.com/lexiforest/curl_cffi and https://github.com/lexiforest/curl-impersonate. Browser cookies are not imported.
